@@ -30,6 +30,10 @@ function NavBar() {
 
   window.addEventListener("scroll", scrollHandler);
 
+  const imgStyle = {
+      "height": "40%",
+  }
+
   return (
     <Navbar
       expanded={expand}
@@ -39,7 +43,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logo} className="img-fluid logo" alt="brand" style={imgStyle}/>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

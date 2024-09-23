@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { SiTailwindcss } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
@@ -17,19 +17,23 @@ import {
   SiSolidity,
   SiPostgresql,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
+import { MdHtml } from "react-icons/md";
+import { FaCss3 } from "react-icons/fa";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <SiTailwindcss />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
+        <MdHtml />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiNodejs />

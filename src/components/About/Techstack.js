@@ -1,24 +1,20 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { SiTailwindcss } from "react-icons/si";
 import {
   DiJavascript1,
   DiReact,
   DiNodejs,
   DiMongodb,
-  DiPython,
   DiGit,
-  DiJava,
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
+  SiTailwindcss,
+  SiExpress,
   SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
 } from "react-icons/si";
 import { MdHtml } from "react-icons/md";
-import { FaCss3 } from "react-icons/fa";
+import { FaCss3 , FaBootstrap } from "react-icons/fa";
+
 
 function Techstack() {
   return (
@@ -42,7 +38,7 @@ function Techstack() {
         <DiReact />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
+        <FaBootstrap/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiMongodb />
@@ -54,20 +50,20 @@ function Techstack() {
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+           <SiExpress />
+      </Col>
+      {/* <Col xs={4} md={2} className="tech-icons">
+        
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+       
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
-      </Col>
+        
+      </Col> */}
     </Row>
   );
 }
